@@ -37,6 +37,12 @@ After you've run `vagrant up` and the build process completes:
 $ vagrant ssh
 ```
 
+Then change to your user:
+
+```
+$ sudo su - username
+```
+
 ## How do I iterate?
 
 If you change the ansible config and want to apply it, just:
