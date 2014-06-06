@@ -1,0 +1,12 @@
+# basic packages
+- name: install packages
+  apt: pkg={{ item }} update_cache=true
+  with_items:
+    - build-essential
+    - git
+    - memcachedb
+    - ntp
+    - postgresql-9.3
+    - redis-server
+    - vim
+    - tmux

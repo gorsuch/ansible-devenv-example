@@ -1,0 +1,15 @@
+[submodule "roles/chruby"]
+	path = roles/chruby
+	url = git@github.com:gorsuch/ansible-chruby-role.git
+[submodule "roles/ruby-install"]
+	path = roles/ruby-install
+	url = git@github.com:gorsuch/ansible-ruby-install-role.git
+[submodule "roles/iptables"]
+	path = roles/iptables
+	url = git@github.com:gorsuch/ansible-iptables-role.git
+[submodule "roles/precompiled-rubies"]
+	path = roles/precompiled-rubies
+	url = git@github.com:gorsuch/ansible-precompiled-rubies-role.git
+[submodule "roles/timezone"]
+	path = roles/timezone
+	url = git@github.com:gorsuch/ansible-timezone-role.git

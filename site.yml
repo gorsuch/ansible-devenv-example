@@ -1,0 +1,11 @@
+---
+- hosts: all
+  sudo: true
+
+  roles:
+    - timezone
+    - base-packages
+    - chruby
+    - ruby-install
+    - precompiled-rubies
+    - { role: user, username: 'gorsuch', git_email 'michael.gorsuch@gmail.com', git_name: 'Michael Gorsuch' }

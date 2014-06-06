@@ -1,0 +1,15 @@
+# our hero
+- name: create user
+  user: name={{ username }}
+        shell=/bin/bash 
+        groups=sudo
+
+# .vimrc
+- name: create /home/{{ username }}/.vimrc
+  template: dest=/home/{{ username }}/.vimrc
+            src=home/user/.vimrc
+
+# .gitconfig
+- name: create /home/{{ username }}/.gitconfig
+  template: dest=/home/{{ username }}/.gitconfig
+            src=home/user/.gitconfig
