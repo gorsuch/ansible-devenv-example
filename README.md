@@ -3,6 +3,17 @@ ansible-devenv-example
 
 Example development environment produced by ansible
 
+## What does it include out of the box?
+
+* Ubuntu Trust (14.04)
+* chruby
+* ruby 2.1.2
+* redis
+* memcached
+* postgres
+* tmux
+* vim
+
 ## How do I run it?
 
 ### Install ansible locally
