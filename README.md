@@ -16,6 +16,21 @@ Example development environment produced by ansible
 
 ## How do I run it?
 
+After cloning this repo you need to tell git to resolve submodules.
+
+~~~bash
+cd ansible-devenv-example
+git submodule update --init --recursive
+~~~
+
+### Install VirtualBox
+
+Download an installer from [https://www.virtualbox.org/](https://www.virtualbox.org/).
+
+### Install Vagrant
+
+Download an installer from [http://www.vagrantup.com/](http://www.vagrantup.com/).
+
 ### Install ansible locally
 
 ```
@@ -41,6 +56,14 @@ Then change to your user:
 
 ```
 $ sudo su - username
+```
+
+## Ruby
+
+By default the system Ruby will be used (1.9.3).  To change to 2.1.2 run this command:
+
+```
+$ chruby 2.1.2
 ```
 
 ## How do I iterate?
